@@ -74,4 +74,42 @@ li a:hover{
 
 .slideshow-container{
     margin-top: 26%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlide {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius:  3px 0 0 3px;
+
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    font-size: unset;
+    padding: 8px 12px;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
 }

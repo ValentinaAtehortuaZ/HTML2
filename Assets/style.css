@@ -1,0 +1,25 @@
+*{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/* Para aplicar estilos a una etiqueta */
+label {
+color: darkcyan;
+}
+
+/*  Para aplicar estilos a un id en especifico */
+#lbl1 {
+background-color: darkorange;
+}
+
+/*  para aplicar estilos a una clase */
+.color {
+background-color: chartreuse;
+}
+
+/*  para aplicar estilos a una jerarquia */
+label.color {
+background-color: chocolate;
+}

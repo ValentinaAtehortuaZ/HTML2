@@ -109,7 +109,15 @@ li a:hover{
 .text {
     font-size: unset;
     padding: 8px 12px;
+    position: absolute;
     bottom: 10px;
     width: 100%;
     text-align: center;
+}
+
+.numbertext {
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }

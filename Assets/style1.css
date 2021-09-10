@@ -9,8 +9,9 @@ header {
     width: 100%;
     margin-left: -8px;
     margin-top: -8px;
-    height: 50%;
     background-image: url("Imagenes/Portada.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .Logo {

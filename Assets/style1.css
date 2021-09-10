@@ -2,7 +2,13 @@
     font-family:fantasy;
 }
 
-.container-header{
+.container {
+height: 100%;
+width: 100%;
+display: flex;
+}
+
+.container-header {
     height: 60px;
     width: 100%;
     display: flex;
@@ -68,5 +74,5 @@ li a:hover{
 
 .Arrivals {
     width: 100%;
-    
+
 }

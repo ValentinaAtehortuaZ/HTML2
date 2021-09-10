@@ -1,5 +1,10 @@
 *{
-    font-family: inherit;
+    font-family:cursive;
+}
+
+.container-header{
+    height: 60px;
+    width: 100%;
 }
 
 header {

@@ -79,11 +79,10 @@ li a:hover{
     align-self: center;
 }
 
-.slideshow-container{
+.slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    margin-top: 2%;
     width: 40%;
 }
 

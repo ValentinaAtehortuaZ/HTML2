@@ -73,10 +73,10 @@ li a:hover{
 }
 
 .slideshow-container{
-    margin-top: 26%;
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top: 26%;
 }
 
 .mySlide {
@@ -107,12 +107,13 @@ li a:hover{
 }
 
 .text {
-    font-size: unset;
+    font-size: 15px;
     padding: 8px 12px;
     position: absolute;
-    bottom: 10px;
+    bottom: 35px;
     width: 100%;
     text-align: center;
+    color:ghostwhite;
 }
 
 .numbertext {
@@ -130,7 +131,7 @@ li a:hover{
     margin: 0 2px;
     background-color: #bbb;
     display: inline-block;
-    transition: background-color #bbb 0.6s ease;
+    transition: background-color 0.6s ease;
 
 }
 

@@ -25,7 +25,7 @@ display: flex;
 
 .container-header {
     height: 60px;
-    width: 100%;
+    width: 99%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.1);
 }

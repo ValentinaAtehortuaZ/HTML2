@@ -220,11 +220,17 @@ padding-inline-start: 40px;
 margin-bottom: auto;
 }
 
-.grid-footer li a {
+.grid-footer  a {
     display: block;
     color:gray;
     text-decoration: none;
     font-size: large;
+    }
+
+    .Contact {
+        padding-left: 20px;
+        margin-block-start: 1em;
+        padding-inline-start: 40px;
     }
 
 

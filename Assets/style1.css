@@ -52,18 +52,19 @@ header {
 .Logo a img {
     height: 100px;
 }
-ul {
+
+.menu ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     display: inline-flex;
 }
 
-li {
+.menu li {
     float: left;
 }
 
-li a {
+.menu li a {
 display: block;
 color:black;
 padding: 7px 15px;
@@ -73,7 +74,7 @@ font-size: large;
 border-radius: 20px;
 }
 
-li a:hover{
+.menu li a:hover{
     background-color:azure;
     color:slategrey;
 }
@@ -208,10 +209,24 @@ background-color: var(--backgroundcolor);
 .grid-footer {
     padding: 20px;
     font-size: 30px;
-    text-align: center;
     height: 250px;
     width: 90%;
 }
+
+.grid-footer h5 {
+padding-left: 20px;
+margin-block-start: 1em;
+padding-inline-start: 40px;
+margin-bottom: auto;
+}
+
+.grid-footer li a {
+    display: block;
+    color:gray;
+    text-decoration: none;
+    font-size: large;
+    }
+
 
 
 

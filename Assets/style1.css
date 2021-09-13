@@ -300,19 +300,19 @@ width: 900px;
 }
 
 .primera {
-    background-color: tomato;
+    background-color:rgb(20, 20, 139);
     height: 400px
 }
 
 .segunda {
-    background-color:seagreen;
+    background-color:rgb(54, 54, 172);
     height: 400px;
     margin: 0 100px 0 100px;  
 }
 
  
 .tercera {
-    background-color: khaki;
+    background-color:rgb(173, 166, 166);
     margin: 0 400px 0 400px; 
     height: 400px;
     text-align: center;
@@ -336,34 +336,42 @@ width: 900px;
     color:green;
 }
 
+.pagos {
+    padding-left: 20px;
+    margin-block-start: 1em;
+    padding-inline-start: 40px;
+}
+
+
+.grid-pagos h5 {
+    padding-left: 20px;
+    margin-block-start: 2em;
+    padding-inline-start: 80px;
+    margin-bottom: auto;
+    font-size: 26px;
+}
+
+.grid-pagos  a {
+    display: block;
+    text-decoration: none;
+    font-size: 40px;
+    }
+
 .American {
-    font-size: 80px;
     color:blue;  
-   margin: 50px 0 0 70px;
-   align-items: center;
-   justify-content: center;
-  
+    margin-left: 40px;
    
+    
 }
 
 .Visa {
-    font-size: 80px;
-    color:rgb(180, 39, 180); 
-    margin: 50px 200px 0 0;
-    align-items: center;
-    justify-content: center;
-   
-     
- 
+    color:rgb(180, 39, 180);  
+    margin-left: 40px;  
 }
 
 .master {
-    font-size: 80px;
     color:orange;
-    margin: 50px 100px 0 0;
-    align-items: center;
-    justify-content: center;
-    
-   
+    margin-left: 40px;
+     
 }
 

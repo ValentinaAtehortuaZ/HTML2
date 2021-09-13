@@ -233,10 +233,19 @@ margin-bottom: auto;
         padding-inline-start: 40px;
     }
 
+    .contact-icons {
+        position: absolute;
+        top: 50%;
+        font-size: 30px;
+    }
 
+    .WhatApp {
+        color: green;
+    }
 
-
-
+    .Instagram {
+        color: rgb(202, 41, 122);
+    }
 
 
 .container-info {
@@ -287,17 +296,17 @@ width: 900px;
     text-align: center;
     background-color: white;
     margin: 90px 0 0 0;
-    height: 280px;
+    height: 288px;
 }
 
 .primera {
     background-color: tomato;
-    height: 300px
+    height: 400px
 }
 
 .segunda {
     background-color:seagreen;
-    height: 300px;
+    height: 400px;
     margin: 0 100px 0 100px;  
 }
 
@@ -305,9 +314,56 @@ width: 900px;
 .tercera {
     background-color: khaki;
     margin: 0 400px 0 400px; 
-    height: 300px;
+    height: 400px;
     text-align: center;
 }
 
+.email{
+    
+    font-size: 50px;
+    color: red;
+}
 
+.instagramm {
+    
+    font-size: 50px;
+    color:rgb(202, 41, 122);
+}
+
+.what {
+    
+    font-size: 50px;
+    color:green;
+}
+
+.American {
+    font-size: 80px;
+    color:blue;  
+   margin: 50px 0 0 70px;
+   align-items: center;
+   justify-content: center;
+  
+   
+}
+
+.Visa {
+    font-size: 80px;
+    color:rgb(180, 39, 180); 
+    margin: 50px 200px 0 0;
+    align-items: center;
+    justify-content: center;
+   
+     
+ 
+}
+
+.master {
+    font-size: 80px;
+    color:orange;
+    margin: 50px 100px 0 0;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
 

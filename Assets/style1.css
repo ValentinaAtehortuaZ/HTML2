@@ -169,10 +169,10 @@ li a:hover{
 }
 
 .grid-container {
-display: grid;
-grid-template-columns: auto auto auto;
-padding: 10px;
-background-color: var(--backgroundcolor);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: var(--backgroundcolor);
 }
 
 .grid-item {
@@ -181,11 +181,16 @@ background-color: var(--backgroundcolor);
     text-align: center;
     height: 250px;
     width: 90%;
+    transition: transform .2s;
 }
 
 .grid-item img {
-    height: inherit;
-    width: inherit;
+height: inherit;
+width: inherit;
+}
+
+.grid-item:hover {
+    transform: scale(1.2);
 }
 
 .container-body {
@@ -193,39 +198,95 @@ width: 100%;
 background-color: var(--backgroundcolor);
 }
 
-.container-info {
-background-color: white;
-width: 90%;
-text-align: center;
-margin-left: 70px;
-height: 400px;
-display: flex;
-justify-content: center;
-align-items: center;
+.container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    background-color: var(--backgroundcolor);
+}
 
+.grid-footer {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 250px;
+    width: 90%;
+}
+
+
+
+
+
+
+.container-info {
+    width: 100%;
+    background-color: var(--backgroundcolor);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .container-info-img {
-display: flex;
-flex-direction: row;
-width: 80%;
-justify-content: center;
-align-items: center;
-height: 350px;
-background-color: rgb(192, 190, 190);
+    height: 300px;
+    width: 1330px;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px 50px 10px 50px;
+    display: flex;
+    background-color: rgba(192, 190, 190);
 }
 
 .container-info-img img {
 height: 100%;
-width: 1000px;
+width: 900px;
+
 }
 
 .Titulo-temporal {
-    margin: 200px 0 200px 0;
+    margin: 50px 0 0 0;
+    height: 150px;
 
 }
 
 .container-text {
     text-align: center;
-    
+    background-color: rgb(196, 196, 196);
+    margin: 90px 0 0 0;
 }
+
+.linea {
+    width: 200px;
+    background-color:black;
+    height: 2px;
+
+}
+
+.container-text2 {
+    text-align: center;
+    background-color: white;
+    margin: 90px 0 0 0;
+    height: 280px;
+}
+
+.primera {
+    background-color: tomato;
+    height: 300px
+}
+
+.segunda {
+    background-color:seagreen;
+    height: 300px;
+    margin: 0 100px 0 100px;  
+}
+
+ 
+.tercera {
+    background-color: khaki;
+    margin: 0 400px 0 400px; 
+    height: 300px;
+    text-align: center;
+}
+
+
+

@@ -5,7 +5,7 @@
 
 *{
     font-family:fantasy;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 body {
@@ -126,7 +126,7 @@ border-radius: 20px;
     bottom: 35px;
     width: 100%;
     text-align: center;
-    color:ghostwhite;
+    color:black;
 }
 
 .numbertext {

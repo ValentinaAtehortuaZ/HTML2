@@ -45,6 +45,8 @@ var name = document.getElementById("name").value;
 var error = document.getElementById("errorName");
 var gender = document.getElementById("Gender").value;
 var errorGender = document.getElementById("errorGender");
+var Correo = document.getElementById("Correo").value;
+var errorCorreo = document.getElementById("errorCorreo");
 var result = document.getElementById("result");
 
 
@@ -76,7 +78,15 @@ if (gender === "e") {
     gender2 = "Femenino";
  }
 
- result.innerText = `${ name } es de género ${ gender2 }`;
+ if (Correo === "") {
+    errorCorreo.innerText = "Field is required";
+    return;
+ } else {
+     errorCorreo.innerText = "";  
+ }
+
+
+ result.innerText = `${ name } es de género, ${ gender2 } su correo es ${ Correo}`;
 
 }
 

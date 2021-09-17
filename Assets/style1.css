@@ -383,19 +383,19 @@ width: 900px;
 
 .American {
     color:blue;  
-    margin-left: 40px;
+    margin-left: 80px;
    
     
 }
 
 .Visa {
     color:rgb(180, 39, 180);  
-    margin-left: 40px;  
+    margin-left: 80px;  
 }
 
 .master {
     color:orange;
-    margin-left: 40px;
+    margin-left: 80px;
      
 }
 
@@ -420,10 +420,10 @@ select, input[type=text]{
 
 select:hover, select:focus, input[type=text]:hover, input[type=text]:focus {
     border-color:rgb(14, 150, 150);
-    box-shadow: 0 0 10px rgb(14, 150, 150);
+    text-shadow:0 0 10px rgb(14, 150, 150);
     outline: none;
 }
 
 label {
-    text-shadow:0 0 10px rgb(14, 150, 150) ;
+    text-shadow:0 0 10px rgb(14, 150, 150);
 }

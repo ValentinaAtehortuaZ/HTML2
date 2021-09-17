@@ -69,7 +69,14 @@ if (gender === "e") {
      errorGender.innerText = "";  
  }
 
- result.innerText = `${ name } es de género ${ gender }`;
+ var gender2 = "";
+ if (gender === "M") {
+     gender2 = "Masculino";
+ } else {
+    gender2 = "Femenino";
+ }
+
+ result.innerText = `${ name } es de género ${ gender2 }`;
 
 }
 

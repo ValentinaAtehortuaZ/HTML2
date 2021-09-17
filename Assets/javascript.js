@@ -40,3 +40,24 @@ function showSlides(n) {
 
 }
 
+function validForm() {
+var name = document.getElementById("name").value;
+var error = document.getElementById("errorName");
+
+
+if (name === "") {
+   error.innerText = "Field is required";
+   return;
+} else {
+    error.innerText = "";  
+}
+
+if (name.length > 10) {
+    error.innerText = "Maxlength is 10"; 
+return;
+} else {
+    error.innerText = "";  
+}
+
+}
+

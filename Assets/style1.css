@@ -8,12 +8,18 @@
     overflow:hidden;
 }
 
-body {
+.body-home {
     height: 100vh;
     overflow: auto;
     background-image: url("Imagenes/turismo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.body-contact {
+    height: 100vh;
+    overflow: auto;
+    margin: auto;
 }
 
 
@@ -22,6 +28,13 @@ height: 60%;
 width: 100%;
 display: flex;
 }
+
+.container-heder2 {
+height: 60px;
+width: 99%;
+display: flex;
+}
+
 
 .container-header {
     height: 60px;
@@ -38,6 +51,16 @@ header {
     margin-left: -8px;
     margin-top: -8px;
 }
+
+.header-contact {
+    position: absolute;
+    display: flex;
+    height: 60px;
+    width: 99%;
+    margin-left: -8px;
+    margin-top: -8px;
+}  
+
 
 .Logo {
     height: 100%;
@@ -375,3 +398,10 @@ width: 900px;
      
 }
 
+#errorName {
+    color: red;
+}
+
+#required {
+    color: red;
+}

@@ -43,6 +43,9 @@ function showSlides(n) {
 function validForm() {
 var name = document.getElementById("name").value;
 var error = document.getElementById("errorName");
+var gender = document.getElementById("Gender").value;
+var errorGender = document.getElementById("errorGender");
+var result = document.getElementById("result");
 
 
 if (name === "") {
@@ -58,6 +61,15 @@ return;
 } else {
     error.innerText = "";  
 }
+
+if (gender === "e") {
+    errorGender.innerText = "Field is required";
+    return;
+ } else {
+     errorGender.innerText = "";  
+ }
+
+ result.innerText = `${ name } es de género ${ gender }`;
 
 }
 

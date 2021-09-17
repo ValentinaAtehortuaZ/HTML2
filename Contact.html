@@ -33,27 +33,31 @@
                 </div>
             </header>
         </div>
+        <div class="form-supplier">
+            <form name="myForm">
+                <label>Name <span class="required"> * </span>: </label>
+                <input tupe="text" id="name">
+                <label class="error" id="errorName"></label>
+                <br><br>
 
-        <form name="myForm">
-            <label>Name <span id="required"> * </span>: </label>
-            <input tupe="text" id="name">
-            <label id="errorName"></label>
-            <br><br>
+                <label>Gender <span class="required"> * </span>: </label>
+                <select id="Gender">
+                    <option value="e"> ----- </option>
+                    <option value="M"> Male </option>
+                    <option value="F"> Female </option>
 
-            <label>Gender <span id="required"> * </span>: </label>
-            <select id="Gender">
-                <option value=""> ----- </option>
-                <option value="M"> Male </option>
-                <option value="F"> Female </option>
-    
-            </select>
-            <label id="errorGender"></label>
-            <br><br>
+                </select>
+                <label class="error" id="errorGender"></label>
+                <br><br>
 
 
+                <label id="result"></label>
 
-            <input type="button" onclick="validForm()" value="Send">
-        </form>
+                <br><br>
+
+                <input type="button" onclick="validForm()" value="Send">
+            </form>
+        </div>
 
         <div>
             <div class="container-footer">

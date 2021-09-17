@@ -398,10 +398,31 @@ width: 900px;
      
 }
 
-#errorName {
+.error {
     color: red;
 }
 
-#required {
+.required {
     color: red;
+}
+
+.form-supplier {
+    width: 100%;
+    text-align: center;
+}
+
+select, input[type=text]{
+    width: 200px;
+    border-radius: 6px;
+
+}
+
+select:hover, select:focus, input[type=text]:hover, input[type=text]:focus {
+    border-color:rgb(14, 150, 150);
+    box-shadow: 0 0 10px rgb(14, 150, 150);
+    outline: none;
+}
+
+label {
+    text-shadow:0 0 10px rgb(14, 150, 150) ;
 }

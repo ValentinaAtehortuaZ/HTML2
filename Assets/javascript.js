@@ -47,6 +47,8 @@ var gender = document.getElementById("Gender").value;
 var errorGender = document.getElementById("errorGender");
 var Correo = document.getElementById("Correo").value;
 var errorCorreo = document.getElementById("errorCorreo");
+var Telefono = document.getElementById("Telefono").value;
+var errorTelefono = document.getElementById("errorTelefono");
 var result = document.getElementById("result");
 
 
@@ -85,8 +87,29 @@ if (gender === "e") {
      errorCorreo.innerText = "";  
  }
 
+ if (Telefono === "") {
+    errorCorreo.innerText = "Field is required";
+    return;
+ } else {
+     errorTelefono.innerText = "";  
+ }
 
- result.innerText = `${ name } es de género, ${ gender2 } su correo es ${ Correo}`;
+
+
+ result.innerText = `${ name } es de género ${ gender2 } su correo es ${ Correo} teléfono ${Telefono}`;
 
 }
+
+var inputs = documen.getElementsByClassName('formulario__input')
+for (var i =0; i < inputs.length; i++) {
+inputs[i].addEventListener('keyup', function() {
+    if (this.value.length>=1) {
+        this.nextElementsSibling.classList.add('fijar');  
+    } else {
+        this.nextElementsSibling.classList.add('fijar'); 
+    }
+});
+}
+
+
 

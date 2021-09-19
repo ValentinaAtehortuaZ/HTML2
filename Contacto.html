@@ -25,7 +25,7 @@
                     <nav class="menu">
                         <ul>
                             <li><a href="./pagina1.html">Hogar</a></li>
-                            <li><a href="./Contact.html">Contacto</a></li>
+                            <li><a href="./Contacto.html">Contacto</a></li>
                             <li><a href="./Nosotros.html">Nosotros</a></li>
 
                         </ul>
@@ -33,20 +33,61 @@
                 </div>
             </header>
         </div>
+        <div class="form-supplier">
 
-<form action="" class="formulario">
-    <h1 class="formulario__titulo">Contáctenos</h1>
-    <input type="text" class="formulario__input">
-    <label for="" class="formulario__label">Nombres</label>
-    <input type="text" class="formulario__input">
-    <label for="" class="formulario__label">Correo</label>
-    <input type="text" class="formulario__input">
-    <label for="" class="formulario__label">Teléfono</label>
-    <input type="text" class="formulario__input">
-    <label for="" class="formulario__label">Mensaje</label>
-    <input type="submit" class="formulario__submit">
+                <form action="" class="formulario">
 
-</form>
+                    <h1 class="formulario__titulo">Contáctenos</h1>
+                    <div>
+                        <input type="text" class="formulario__input">
+                        <label for="" class="formulario__label">Nombres <span class="required"> * </span>:
+                        </label>
+                        <label class="error" id="errorName"></label>
+                    </div>
+
+                    <div>
+                        <input type="text" class="formulario__input" id="Gender">
+                        
+                        <label for="" class="formulario__label">Género <span class="required"> * </span>:
+                            <label class="error" id="errorGender"></label>
+                            <select id="Gender">
+                                <option value="e"> ----- </option>
+                                <option value="M"> Male </option>
+                                <option value="F"> Female </option>
+            
+                            </select>
+                    </div>
+                    <div>
+                        <input type="text" class="formulario__input" id="Correo">
+                        <label for="" class="formulario__label">Correo <span class="required"> * </span>:
+                            <label class="error" id="errorCorreo"></label>
+                    </div>
+                    <div>
+                        <input type="text" class="formulario__input" id="Telefono">
+                        <label for="" class="formulario__label">Teléfono <span class="required"> *
+                            </span>: </label></label>
+                        <label class="error" id="errorTelefono"></label>
+                    </div>
+                    <div>
+                        <input type="text" class="formulario__input" id="Mensaje">
+                        <label for="" class="formulario__label">Mensaje <span class="required"> * </span>:
+                        </label></label>
+                        <label class="error" id="errorMensaje"></label>
+                    </div>
+                    <input type="submit" class="formulario__submit" onclick="validForm()" value="Enviar">
+
+
+                    <label class="error" id="errorTelefono"></label>
+                    <br><br>
+                    <br><br>
+
+                    <label id="result"></label>
+
+                    <br><br>
+
+
+                </form>
+        </div>
 
         <div>
             <br><br>
@@ -56,7 +97,7 @@
                     <h5>Menú</h5>
                     <ul>
                         <li><a href="./pagina1.html">Hogar</a></li>
-                        <li><a href="./Contact.html">Contacto</a></li>
+                        <li><a href="./Contacto.html">Contacto</a></li>
                         <li><a href="./Nosotros.html">Nosotros</a></li>
 
                 </div>

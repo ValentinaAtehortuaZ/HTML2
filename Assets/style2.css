@@ -84,3 +84,4 @@ select:hover, select:focus, input[type=text]:hover, input[type=text]:focus {
 
 label {
     text-shadow:0 0 10px rgb(236, 6, 6);
+}
